@@ -1,0 +1,66 @@
+{
+	"id": "9f66268f-17fa-4247-97f0-3cdd7e5fd51a",
+	"name": "Lecture",
+	"timestamp": "2024-05-23T12:52:40.363Z",
+	"collection_id": "32453977-cf848e1c-0582-4719-867b-73f348aa5b66",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-05-23T12:52:36.667Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "371e3d2c-35a6-4f67-8bcd-685eafa7a737",
+			"name": "Contrat Lyon",
+			"url": "https://api.jcdecaux.com/vls/v1/stations?contract=lyon&apiKey=d42c1e0ca983a8b09e9d1c9a323bb4505c24c87f",
+			"time": 91,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				91
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "664d6e81-ca1d-455a-82ff-ae29883a1eec",
+			"name": "Liste des contrats",
+			"url": "https://api.jcdecaux.com/vls/v3/contracts?apiKey=d42c1e0ca983a8b09e9d1c9a323bb4505c24c87f",
+			"time": 44,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				44
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 135,
+	"collection": {
+		"requests": [
+			{
+				"id": "371e3d2c-35a6-4f67-8bcd-685eafa7a737",
+				"method": "GET"
+			},
+			{
+				"id": "664d6e81-ca1d-455a-82ff-ae29883a1eec",
+				"method": "GET"
+			}
+		]
+	}
+}
